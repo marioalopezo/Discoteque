@@ -1,25 +1,34 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.5.002.0
+VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Discoteque", "Discoteque.csproj", "{21FBE093-B7A2-44CB-AC20-60C2B1DE15D4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Discoteque.API", "Discoteque.API\Discoteque.API.csproj", "{C46190A3-28EF-4486-B6D5-6BE43D855CA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Discoteque.Business", "Discoteque.Business\Discoteque.Business.csproj", "{1D726808-B5FE-42F0-BA6B-268B9A5533F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Discoteque.Data", "Discoteque.Data\Discoteque.Data.csproj", "{7300C8EA-F879-4CFE-B2BA-6D04EC5B323D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{21FBE093-B7A2-44CB-AC20-60C2B1DE15D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{21FBE093-B7A2-44CB-AC20-60C2B1DE15D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{21FBE093-B7A2-44CB-AC20-60C2B1DE15D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{21FBE093-B7A2-44CB-AC20-60C2B1DE15D4}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {70D25196-6821-4780-BD3F-919846356AC2}
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C46190A3-28EF-4486-B6D5-6BE43D855CA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C46190A3-28EF-4486-B6D5-6BE43D855CA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C46190A3-28EF-4486-B6D5-6BE43D855CA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C46190A3-28EF-4486-B6D5-6BE43D855CA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D726808-B5FE-42F0-BA6B-268B9A5533F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D726808-B5FE-42F0-BA6B-268B9A5533F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D726808-B5FE-42F0-BA6B-268B9A5533F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D726808-B5FE-42F0-BA6B-268B9A5533F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7300C8EA-F879-4CFE-B2BA-6D04EC5B323D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7300C8EA-F879-4CFE-B2BA-6D04EC5B323D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7300C8EA-F879-4CFE-B2BA-6D04EC5B323D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7300C8EA-F879-4CFE-B2BA-6D04EC5B323D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
